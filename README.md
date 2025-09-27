@@ -65,5 +65,4 @@
 
 ---
 
-&color=gradient&height=100&section=footer"/>
 </div>
