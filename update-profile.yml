@@ -1,0 +1,71 @@
+name: Update README Profile
+
+on:
+  schedule:
+    # Runs every hour at minute 0
+    - cron: '0 * * * *'
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+    # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: 🏗️ Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pytz
+        
+    - name: 🔄 Update README
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python update_readme.py
+        
+    - name: 📝 Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are any changes
+        if [[ -n $(git status --porcelain) ]]; then
+          git add README.md
+          git commit -m "🤖 Auto-update README profile ($(date '+%Y-%m-%d %H:%M:%S'))"
+          git push
+          echo "✅ README updated successfully!"
+        else
+          echo "ℹ️ No changes to commit"
+        fi
+
+  # Optional: Add a job to update coding platform stats
+  update-coding-stats:
+    runs-on: ubuntu-latest
+    needs: update-readme
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: 🏗️ Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: 📊 Update LeetCode Stats
+      uses: joshcangit/leetcode-stats-card@main
+      with:
+        username: Skyy_07
+        
+    # Add more coding platform integrations here if needed
