@@ -42,60 +42,6 @@
 
 ---
 
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Skyy_07&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Skyy_07&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Skyy_07&theme=tokyonight" alt="GitHub Streak"/>
-</div>
-
-### 🏆 GitHub Trophies
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Skyy_07&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1"/>
-</div>
-
----
-
-## 🔥 Recent Activity
-
-<!--START_SECTION:activity-->
-*This section will be automatically updated with recent GitHub activity*
-<!--END_SECTION:activity-->
-
----
-
-## 📈 Coding Platforms
-
-<!--START_SECTION:leetcode-->
-*LeetCode stats will be updated automatically*
-<!--END_SECTION:leetcode-->
-
-<!--START_SECTION:codeforces-->
-*Codeforces stats will be updated automatically*
-<!--END_SECTION:codeforces-->
-
----
-
-## 📝 Latest Blog Posts
-
-<!--START_SECTION:blog-->
-*Latest blog posts will be updated automatically*
-<!--END_SECTION:blog-->
-
----
-
-## 🎨 Featured Projects
-
-<!--START_SECTION:projects-->
-*Featured projects will be updated automatically*
-<!--END_SECTION:projects-->
-
----
-
 ## 🌐 Connect with Me
 
 <div align="center">
@@ -103,7 +49,7 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nilavra-sinha-16188a369/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Skyy_07)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://your-portfolio-url.com)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nilavra.s2007@gmail.com)
 
 </div>
 
@@ -119,26 +65,5 @@
 
 ---
 
-## 📊 Profile Views
-
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=Skyy_07&color=36BCF7&style=flat-square&label=Profile+Views)
-
-</div>
-
----
-
-<div align="center">
-  
-### ⏰ Last Updated: <!--START_SECTION:timestamp-->
-*Automatically updated every hour*
-<!--END_SECTION:timestamp-->
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+&color=gradient&height=100&section=footer"/>
 </div>
